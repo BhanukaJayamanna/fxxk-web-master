@@ -1,0 +1,1174 @@
+{% extends 'main.html.twig' %}
+
+{% block title %}{{ include('partials/title-meta.html.twig', {title: 'Home'}) }}{% endblock %}
+
+{% block content %}
+
+
+
+    <section class="bg-secondary">
+        <div class="main-slider-front">
+            <img src="img/front-page/hoeschen-kruner.png" class="content-before-slide">
+            <div class="carousel-front-left">
+                <div class="carousel-front-left__cell" data-background-image-url="img/front-page/frau-kruner-main-photo.jpg"></div>
+                <div class="carousel-front-left__cell" data-background-image-url="img/front-page/frau-kruner-main-photo.jpg"></div>
+            </div>
+            <div class="mein-slider-front-pfeil-container">
+                <img src="img/icons/icon-pfeil-links.svg" class="main-slider-front-pfeil-links" alt="Pfeil nach links" height="26px" width="43px">
+                <img src="img/icons/icon-pfeil-rechts.svg" class="main-slider-front-pfeil-rechts" alt="Pfeil nach links" height="26px" width="43px">
+            </div>
+
+            <div class="carousel-front-right">
+                <div class="carousel-front-right__cell">
+                    <div class="carousel-front-right__content">
+                        <h2>Alles was deine <span class="unterline-primary">Lust</span> begehrt.</h2>
+                        <p>Egal ob dezenter Duft, feuchtes Höschen oder der Geruch von Schweiß - bei mir bekommst du alles!Egal ob dezenter Duft, feuchtes Höschen oder der Geruch von Schweiß - bei mir bekommst du alles!</p>
+                        <a href="/" class="btn btn-primary">Slip shoppen</a>
+                    </div>
+                </div>
+
+                <div class="carousel-front-right__cell">
+                    <div class="carousel-front-right__content">
+                        <h2>Alles was deine <span class="unterline-primary">Lust</span> begehrt.2</h2>
+                        <p>Egal ob dezenter Duft, feuchtes Höschen oder der Geruch von Schweiß - bei mir bekommst du alles!Egal ob dezenter Duft, feuchtes Höschen oder der Geruch von Schweiß - bei mir bekommst du alles!</p>
+                        <a href="/" class="btn btn-primary">Slip shoppen</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-xxl">
+        <div class="carousel-testimonials-home">
+
+            <div class="carousel-testimonials-home__slide">
+                <img data-flickity-lazyload="img/icons/100-prozent-echt.svg" class="carousel-testimonials-home__slide__image" alt="100% Echt und Ehrlich"> <p>100% Echt und Ehrlich</p>
+            </div>
+
+            <div class="carousel-testimonials-home__slide">
+                <img data-flickity-lazyload="img/icons/diskrete-bezahlung.svg" class="carousel-testimonials-home__slide__image" alt="Diskretes überweisen"> <p>Diskretes überweisen</p>
+            </div>
+
+            <div class="carousel-testimonials-home__slide">
+                <img data-flickity-lazyload="img/icons/diskrete-verpackung.svg" class="carousel-testimonials-home__slide__image" alt="Unauffällige Verpackung ohne Werbeaufdruck"> <p>Unauffällige Verpackung ohne<br> Werbeaufdruck</p>
+            </div>
+
+            <div class="carousel-testimonials-home__slide">
+                <img data-flickity-lazyload="img/icons/keine-gebuehr.svg" class="carousel-testimonials-home__slide__image" alt="Keine Ameldegebühren oder versteckte Kosten"> <p>Keine Ameldegebühren oder<br> versteckte Kosten</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-xxl front-highline-section">
+        <p>Wenn du gerne an getragener <span class="unterline-secondary">Unterwäsche</span> schnupperst, bist du hier genau richtig. Frau Kruner ist 100% echt und ehrlich und immer für dich da.</p>
+        <a href="/uber-mich" class="btn btn-primary-outline">Frau Kruner kennenlernen</a>
+    </section>
+
+
+    <!-- Category Presented with bg-secondary-->
+    <section class="bg-secondary">
+        <div class="container-xxl">
+            <img data-src="img/front-page/section-image.jpg" class="img-100-width lazy" alt="Section Title">
+            <div class="row" >
+                <div class="col-12 col-md-5 col-main-page-sections__first">
+                    <h4 class="text-primary">String</h4>
+                    <h2>Persönliche Strings mit lieblichen Duft</h2>
+                    <p>Kleines Höschen mit riesen Geruchspotenzial.Kleines Höschen mit riesen Geruchspotenzial.</p>
+                    <a href="/shop.html" class="btn btn-primary">Slips shoppen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections__second">
+                    <div class="slider-angebote-main-categorys">
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_5355.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Strings</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_8685.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Strings</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_5349.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Strings</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_3496.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Strings</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_3881.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Strings</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="slider-angebote-main-categorys-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-links.svg" class="slider-angebote-main-categorys-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-angebote-main-categorys-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Category Presented with bg-secondary-->
+
+
+    <!-- Category Presented with bg-white-->
+    <section class="bg-white">
+        <div class="container-xxl">
+            <img data-src="img/sample-images/socken.jpg" class="img-100-width lazy" alt="Section Title">
+            <div class="row" >
+                <div class="col-12 col-md-5 col-main-page-sections__first">
+                    <h4 class="text-primary">Socken</h4>
+                    <h2>Alles Rund um die Füße</h2>
+                    <p>Socken die scharf machen.</p>
+                    <a href="/shop.html" class="btn btn-primary">Socken shoppen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections__second">
+                    <div class="slider-angebote-main-categorys">
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_196.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_7829.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_7876.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_7893.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_196.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_196.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/sample-images/IMG_196.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-angebote-main-categorys-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-angebote-main-categorys-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-angebote-main-categorys-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Category Presented with bg-white-->
+
+    <!-- Category Presented with bg-lightgrey-->
+    <section class="bg-lightgrey">
+        <div class="container-xxl">
+            <img data-src="img/front-page/section-image.jpg" class="img-100-width lazy" alt="Section Title">
+            <div class="row" >
+                <div class="col-12 col-md-5 col-main-page-sections__first">
+                    <h4 class="text-primary">String</h4>
+                    <h2>Persönliche Strings mit lieblichen Duft</h2>
+                    <p>Kleines Höschen mit riesen Geruchspotenzial.Kleines Höschen mit riesen Geruchspotenzial.</p>
+                    <a href="/shop.html" class="btn btn-primary">Slips shoppen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections__second">
+                    <div class="slider-angebote-main-categorys">
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-angebote-main-categorys-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-angebote-main-categorys-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-angebote-main-categorys-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Category Presented with bg-lightgrey-->
+
+    <!-- Category Presented with bg-primary-->
+    <section class="bg-primary">
+        <div class="container-xxl">
+            <img data-src="img/front-page/section-image.jpg" class="img-100-width lazy" alt="Section Title">
+            <div class="row" >
+                <div class="col-12 col-md-5 col-main-page-sections__first">
+                    <h4 class="text-white">String</h4>
+                    <h2>Persönliche Strings mit lieblichen Duft</h2>
+                    <p>Kleines Höschen mit riesen Geruchspotenzial.Kleines Höschen mit riesen Geruchspotenzial.</p>
+                    <a href="/shop.html" class="btn btn-secondary">Slips shoppen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections__second">
+                    <div class="slider-angebote-main-categorys">
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-angebote-main-categorys__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Schöner duftende Socken die bis zum Himmel riechen und noch viel höher 🥰 </p>
+                                    <span class="slider-angebote-main-categorys__slide__content-price">29,99€</span>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-angebote-main-categorys-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-links.svg" class="slider-angebote-main-categorys-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts.svg" class="slider-angebote-main-categorys-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Category Presented with bg-primary-->
+
+    <!-- Top Products presented with rating and bg-lightgrey-->
+    <section class="bg-lightgrey">
+        <div class="container-xxl">
+            <div class="row pt-pb-10" >
+                <div class="col-12 col-md-5 col-main-page-sections-no-negative-margin__first">
+                    <h4 class="text-primary">Top</h4>
+                    <h2>Unsere beliebtesten Unterwäsche-Girls</h2>
+                    <p>Top Girls ansehen</p>
+                    <a href="/shop.html" class="btn btn-primary">Top Girls ansehen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections-no-negative-margin__second">
+                    <div class="slider-main-top-and-other">
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/sample-images/IMG_5355.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/sample-images/IMG_3496.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/sample-images/IMG_5349.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/sample-images/IMG_5349.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/sample-images/IMG_5355.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-main-top-and-other-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-main-top-and-other-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-main-top-and-other-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Products presented with rating and bg-lightgrey-->
+
+    <!-- Top Products presented with rating and bg-white-->
+    <section class="bg-white">
+        <div class="container-xxl">
+            <div class="row pt-pb-10" >
+                <div class="col-12 col-md-5 col-main-page-sections-no-negative-margin__first">
+                    <h4 class="text-primary">Top</h4>
+                    <h2>Unsere beliebtesten Unterwäsche-Girls</h2>
+                    <p>Top Girls ansehen</p>
+                    <a href="/shop.html" class="btn btn-primary">Top Girls ansehen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections-no-negative-margin__second">
+                    <div class="slider-main-top-and-other">
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-main-top-and-other__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                    <div class="star-rating-container">
+                                        <div class="star-rating">
+                                            <input type="radio" name="stars" id="star-a" value="5"/>
+                                            <label for="star-a"></label>
+
+                                            <input type="radio" name="stars" id="star-b" value="4"/>
+                                            <label for="star-b"></label>
+
+                                            <input type="radio" name="stars" id="star-c" value="3"/>
+                                            <label for="star-c"></label>
+
+                                            <input type="radio" name="stars" id="star-d" value="2"/>
+                                            <label for="star-d"></label>
+
+                                            <input type="radio" name="stars" id="star-e" value="1"/>
+                                            <label for="star-e"></label>
+                                        </div>
+                                        <p>57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-main-top-and-other-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-main-top-and-other-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-main-top-and-other-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Products presented with rating and bg-white-->
+
+    <!-- Top Products presented without rating and bg-lightgrey-->
+    <section class="bg-lightgrey">
+        <div class="container-xxl">
+            <div class="row pt-pb-10" >
+                <div class="col-12 col-md-5 col-main-page-sections-no-negative-margin__first">
+                    <h4 class="text-primary">Top</h4>
+                    <h2>Unsere beliebtesten Unterwäsche-Girls</h2>
+                    <p>Top Girls ansehen</p>
+                    <a href="/shop.html" class="btn btn-primary">Top Girls ansehen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections-no-negative-margin__second">
+                    <div class="slider-main-top-and-other-no-rating">
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-main-top-and-other-no-rating-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-main-top-and-other-no-rating-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-main-top-and-other-no-rating-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Products presented without rating and bg-lightgrey-->
+
+    <!-- Top Products presented without rating and bg-white-->
+    <section class="bg-white">
+        <div class="container-xxl">
+            <div class="row pt-pb-10" >
+                <div class="col-12 col-md-5 col-main-page-sections-no-negative-margin__first">
+                    <h4 class="text-primary">Top</h4>
+                    <h2>Unsere beliebtesten Unterwäsche-Girls</h2>
+                    <p>Top Girls ansehen</p>
+                    <a href="/shop.html" class="btn btn-primary">Top Girls ansehen</a>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections-no-negative-margin__second">
+                    <div class="slider-main-top-and-other-no-rating">
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="slider-main-top-and-other-no-rating__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-main-top-and-other-no-rating__slide__image-field" data-background-image-url="img/front-page/beispielsbild-produkt.jpg"></div>
+                                <div class="slider-main-top-and-other-no-rating__slide__content">
+                                    <p>Geile Milf, 47</p> <!-- Nickname, Age-->
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider-main-top-and-other-no-rating-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-main-top-and-other-no-rating-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-main-top-and-other-no-rating-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Products presented without rating and bg-white-->
+
+    <!-- New category on the website-->
+    <section class="bg-lightgrey">
+        <div class="container-xxl">
+            <img data-src="img/front-page/new-cat-unedited.jpg" class="img-100-width lazy" alt="Image new Categorys">
+            <div class="row" >
+                <div class="col-12 col-md-5 col-main-page-sections__first">
+                    <h4 class="text-primary">New</h4>
+                    <h2>Neu bei mir.</h2>
+                    <p>Nicht dass Ihr Euch irgendwann langweilt!</p>
+                </div>
+
+                <div class="col-12 col-md-7 col-main-page-sections__second">
+                    <div class="slider-angebote-main-categorys-new">
+
+                        <div class="slider-angebote-main-categorys-new__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys-new__slide__image-field" data-background-image-url="img/front-page/category-img-sample.jpg"></div>
+                                <div class="slider-angebote-main-categorys-new__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Wir bieten alles was dein Wunsch begehrt.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys-new__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys-new__slide__image-field" data-background-image-url="img/front-page/category-img-sample.jpg"></div>
+                                <div class="slider-angebote-main-categorys-new__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Wir bieten alles was dein Wunsch begehrt.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys-new__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys-new__slide__image-field" data-background-image-url="img/front-page/category-img-sample.jpg"></div>
+                                <div class="slider-angebote-main-categorys-new__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Wir bieten alles was dein Wunsch begehrt.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="slider-angebote-main-categorys-new__slide">
+                            <a href="/single-product-page.html">
+                                <div class="slider-angebote-main-categorys-new__slide__image-field" data-background-image-url="img/front-page/category-img-sample.jpg"></div>
+                                <div class="slider-angebote-main-categorys-new__slide__content">
+                                    <h6>Socken</h6>
+                                    <p>Wir bieten alles was dein Wunsch begehrt.</p>
+                                </div>
+                            </a>
+                        </div>™
+
+                    </div>
+
+                    <div class="slider-angebote-main-categorys-new-pfeil-container">
+                        <img data-src="img/icons/icon-pfeil-secondary-rechts-links.svg" class="slider-angebote-main-categorys-new-pfeil-links lazy" alt="Pfeil nach links" height="26px" width="43px">
+                        <img data-src="img/icons/icon-pfeil-rechts.svg" class="slider-angebote-main-categorys-new-pfeil-rechts lazy" alt="Pfeil nach links" height="26px" width="43px">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- New category on the website-->
+
+    <!-- Promotion-->
+    <section class="container-xxl bg-secondary mb-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 pl-0-pr-0-xl d-flex  align-items-center justify-content-start">
+                <img data-src="img/front-page/promotion.jpg" alt="Ich suche Verkäuferinnen!" class="lazy img-100-width">
+            </div>
+
+            <div class="col-12 col-sm-6 d-flex align-items-center">
+                <div class="content-aktion">
+                    <h6>Aktion</h6>
+                    <h3>Ich suche Verkäuferinnen!</h3>
+                    <p>Jetzt anmelden! Keine Kosten! Nur Gewinn!Jetzt anmelden! Keine Kosten!</p>
+
+                    <a href="/" class="btn btn-primary">Jetzt anmelden</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Promotion-->
+
+    <!-- Testimonials-->
+    <section class="container-xxl mt-mb-11">
+        <h3>Unsere befriedigten Kunden schreiben.</h3>
+
+        <div class="slider-testimonials-main">
+
+            <div class="slider-testimonials-main__slide">
+                <h5>Xx zu <a href="/user-account">eEmmy_98</a><!--Lnk to the Account with this Testimonial--></h5>
+                <p>Vielen lieben Dank für den toll erfüllten Wunsch!! Bei der lieben Sliplady ist der Service wirklich top, was die Wartezeit bis zum top (in meinem Fall eingesauten) Produkt wirklich sehr verkürzt hat. Tolle Bilder haben das ganze sehr toll abgerundet! Vielen Dank nochmal und klare Empfehlung!! 🤩</p>
+
+                <a href="/user-account">Zum Shop</a>
+            </div>
+
+
+            <div class="slider-testimonials-main__slide">
+                <h5>Xx zu <a href="/user-account">eEmmy_98</a><!--Lnk to the Account with this Testimonial--></h5>
+                <p>Vielen lieben Dank für den toll erfüllten Wunsch!! Bei der lieben Sliplady ist der Service wirklich top, was die Wartezeit bis zum top (in meinem Fall eingesauten) Produkt wirklich sehr verkürzt hat. Tolle Bilder haben das ganze sehr toll abgerundet! Vielen Dank nochmal und klare Empfehlung!! 🤩</p>
+
+                <a href="/user-account">Zum Shop</a>
+            </div>
+
+
+            <div class="slider-testimonials-main__slide">
+                <h5>Xx zu <a href="/user-account">eEmmy_98</a><!--Lnk to the Account with this Testimonial--></h5>
+                <p>Vielen lieben Dank für den toll erfüllten Wunsch!! Bei der lieben Sliplady ist der Service wirklich top, was die Wartezeit bis zum top (in meinem Fall eingesauten) Produkt wirklich sehr verkürzt hat. Tolle Bilder haben das ganze sehr toll abgerundet! Vielen Dank nochmal und klare Empfehlung!! 🤩</p>
+
+                <a href="/user-account">Zum Shop</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Testimonials-->
+
+    <!-- Get seller-->
+    <section class="container-xxl bg-primary mt-mb-5">
+        <div class="row">
+            <div class="col-12 col-sm-7 pl-0-pr-0-xl d-flex  align-items-center justify-content-center">
+                <img data-src="img/front-page/suche-verkaeferinnen.jpg" alt="Ich suche Verkäuferinnen!" class="lazy img-100-width">
+            </div>
+
+            <div class="col-12 col-sm-5 d-flex align-items-center">
+                <div class="content-aktion">
+                    <h6>Aktion</h6>
+                    <h3>Ich suche Verkäuferinnen!</h3>
+                    <p>Jetzt anmelden! Keine Kosten! Nur Gewinn!Jetzt anmelden! Keine Kosten!</p>
+
+                    <a href="/" class="btn btn-white">Jetzt anmelden</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get seller-->
+
+
+
+    <section class="container-xxl">
+
+        <div class="main-container mb-5">
+
+            <h2 class="small">GETRAGENE UNTERWÄSCHE BEI FxxK</h2>
+
+            <div class="only-so-big">
+                <p>Getragene Slips, benutzte Höschen, gebrauchte Wäsche und vieles mehr von echten Studentinnen. Für Liebhaber getragener Dessous, Strumpfmode und vielem mehr bieten wir Dir auf studentslip.eu eine große Auswahl an getragenen Slips von echten Studentinnen. Auf der Suche nach Deinem ganz persönlichem Höhepunkt erfüllen Dir unsere Mädels fast jeden Wunsch – im Mittelpunkt stehst Du und Deine Vorlieben, sodass Du voll und ganz auf Deine Kosten kommst. Egal welche Wünsche und Vorstellung Du hast, unsere Mädels tragen Deinen Duftslip ganz nach Deinen Wünschen.
+
+                    Du hast die Wahl, wie viele Tage unsere Mädels Deinen Duftslip tragen sollen und bestimmst die Intensität des Aromas. Für die ganz speziellen Wünsche gibt es auch die Möglichkeit, getragene Slips zusätzlich veredeln zu lassen. Wenn Du auch schon über eine stattliche Kollektion an Duftwäsche verfügst und Dir gerne etwas Besonderes gönnen möchtest, dann sind die Veredelungen genau das richtige für Dich und Deine Liebhaber-Nase.
+
+                    Mit getragenen Höschen kommst Du den Damen sehr nahe und kannst Dir dennoch Deine Distanz wahren. Ihr beide erlebt zusammen ein geheimes Spiel, dessen Reiz gerade darin liegt, dass ihr euch nicht kennt. Entdecke dein ganz eigenes Duftparadies mit den getragenen Höschen Deiner Lieblingsdamen. Diese genießen ihr heimliches Hobby, mit dem Sie Deine intimsten Wünsche und Vorstellungen erfüllen können. Und das wiederum erfüllt sie selbst mit Befriedigung.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+{% endblock %}

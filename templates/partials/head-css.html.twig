@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="css/style.min.css" defer>
+
+<script>
+    function headerMenuButtonFunction() {
+        var navBarLock = document.getElementById("navBarHeader");
+        document.body.classList.toggle('lock-scroll');
+        navBarLock.classList.toggle("overflowAuto");
+
+    };
+    function headerSearchFunctionHidden() {
+        var searchAppers = document.getElementById("searchSecondaryHidden");
+        searchAppers.classList.toggle("activeSearch");
+    };
+
+
+    window.onscroll = function() {removeActiveSearch()};
+
+    function removeActiveSearch() {
+        if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+            var searchAppersScrolls = document.getElementById("searchSecondaryHiddenForm");
+            searchAppersScrolls.style.top = "0px";
+        }
+        else{
+            var searchAppersScrolls = document.getElementById("searchSecondaryHiddenForm");
+            searchAppersScrolls.style.top = "4.3rem";
+        }
+    }
+
+</script>

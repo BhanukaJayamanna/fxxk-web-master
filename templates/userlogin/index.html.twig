@@ -1,0 +1,28 @@
+{% extends 'main.html.twig' %}
+
+{% block title %}{{ include('partials/title-meta.html.twig', {title: 'Login'}) }}{% endblock %}
+
+{% block content %}
+
+    <div class="container-profile-login">
+    <div class="login-section">
+        <h1 class="small">Einloggen</h1>
+        <form class="login-form" action="/userprofile-welcome.html">
+            <label for="e-mail">E-Mail</label>
+            <input type="email" placeholder="E-Mail-Adresse" id="e-mail" name="e-mail" required>
+            <label for="password">E-Mail</label>
+            <input type="password" placeholder="Passwort" id="password" name="password" minlength="8" required>
+            <input type="submit" value="Anmelden">
+        </form>
+        <a href="/login-templ.html" class="text-grey">Passwort vergessen</a>
+    </div>
+
+    <div class="register-section">
+        <h1 class="small">Ich bin neu hier</h1>
+        <div class="register-button-section">
+            <a href="/userregister" class="btn btn-register">Registrieren</a>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
